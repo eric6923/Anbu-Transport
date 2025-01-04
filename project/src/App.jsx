@@ -5,7 +5,7 @@ import Services from './components/Services';
 import BookNow from './components/BookNow';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
-
+import Footer from './components/Footer'
 function App() {
   return (
     <div className="min-h-screen">
@@ -16,6 +16,7 @@ function App() {
       <BookNow />
       <Testimonials />
       <Contact />
+      <Footer/>
     </div>
   );
 }
