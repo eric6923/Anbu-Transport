@@ -45,16 +45,16 @@ const Footer = () => {
             <ul className="space-y-3 text-gray-400">
               <li className="hover:text-white transition-colors duration-200">
                 <p className="font-medium">Address:</p>
-                <p>123 Transport Street</p>
-                <p>City, Country</p>
+                <p>2, Kelimel street, Lekshmipuram, Ganapathy, Coimbatore, Tamil Nadu 641006</p>
+                <p></p>
               </li>
               <li className="hover:text-white transition-colors duration-200">
                 <p className="font-medium">Phone:</p>
-                <p>+1 234 567 890</p>
+                <p>+91 9345253890</p>
               </li>
               <li className="hover:text-white transition-colors duration-200">
                 <p className="font-medium">Email:</p>
-                <p>info@anbutransport.com</p>
+                <p>aimuniversse@gmail.com</p>
               </li>
             </ul>
           </div>
@@ -64,8 +64,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4 pb-2 border-b border-gray-700">Follow Us</h4>
             <div className="flex gap-4">
               {[
-                { Icon: Facebook, label: 'Facebook' },
-                { Icon: Twitter, label: 'Twitter' },
+                
                 { Icon: Instagram, label: 'Instagram' },
                 { Icon: Linkedin, label: 'LinkedIn' }
               ].map(({ Icon, label }) => (

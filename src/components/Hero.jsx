@@ -44,11 +44,11 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.8 }}
-            className="text-6xl lg:text-8xl font-bold mb-8 leading-tight"
+            className="text-6xl lg:text-8xl font-bold mb-8 leading-tight select-none"
           >
             Your Journey,
             <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-blue-100">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-blue-100 select-none">
               Our Priority
             </span>
           </motion.h1>
@@ -74,7 +74,7 @@ const Hero = () => {
               spy={true}
               smooth={true}
               duration={500}
-              className="inline-block px-12 py-4 bg-white text-blue-600 rounded-full text-lg font-semibold hover:bg-blue-50 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl"
+              className="select-none inline-block px-12 py-4 bg-white text-blue-600 rounded-full text-lg font-semibold hover:bg-blue-50 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl"
             >
               Book Now
             </Link>
@@ -83,7 +83,7 @@ const Hero = () => {
               spy={true}
               smooth={true}
               duration={500}
-              className="inline-block px-12 py-4 bg-transparent border-2 border-white/30 text-white rounded-full text-lg font-semibold hover:bg-white/10 transition-all transform hover:scale-105"
+              className="select-none inline-block px-12 py-4 bg-transparent border-2 border-white/30 text-white rounded-full text-lg font-semibold hover:bg-white/10 transition-all transform hover:scale-105"
             >
               Our Services
             </Link>
